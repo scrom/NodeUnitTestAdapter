@@ -1,8 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeUnitTestAdapter", "NodeUnitTestAdapter\NodeUnitTestAdapter.csproj", "{A6F36102-6798-4018-8A2C-D5DC6D1ED08D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VsNodeTest", "VsNodeTest\VsNodeTest.csproj", "{3FB0D4C4-4877-4EB4-8F90-BB2880D44292}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3B601F13-2AAB-4F35-95C0-2C6A78495DB5}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
@@ -10,11 +12,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeUnitTestAdapter", "NodeUnitTestAdapter\NodeUnitTestAdapter.csproj", "{A6F36102-6798-4018-8A2C-D5DC6D1ED08D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VsNodeTest", "VsNodeTest\VsNodeTest.csproj", "{3FB0D4C4-4877-4EB4-8F90-BB2880D44292}"
-EndProject
 Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://teamsystem.walgreens.com:8080/tfs/walgreensphwcollection
+		SccProjectUniqueName0 = NodeUnitTestAdapter\\NodeUnitTestAdapter.csproj
+		SccProjectName0 = NodeUnitTestAdapter
+		SccAuxPath0 = http://teamsystem.walgreens.com:8080/tfs/walgreensphwcollection
+		SccLocalPath0 = NodeUnitTestAdapter
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = VsNodeTest\\VsNodeTest.csproj
+		SccProjectName1 = VsNodeTest
+		SccAuxPath1 = http://teamsystem.walgreens.com:8080/tfs/walgreensphwcollection
+		SccLocalPath1 = VsNodeTest
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
