@@ -39,6 +39,7 @@ namespace NodeUnitTestAdapter
             proc.StartInfo.RedirectStandardInput = true;
             proc.StartInfo.RedirectStandardOutput = true;
             proc.StartInfo.RedirectStandardError = true;
+            proc.StartInfo.CreateNoWindow = true;
 
             proc.OutputDataReceived += (sender, args) =>
             {
