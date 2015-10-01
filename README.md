@@ -23,7 +23,5 @@ Other:
  ** OR search for "VsNodeTest" using Visual Studio's Extensions and Updates.
  ** Contribute to the future of NodeUnit test adapter here: https://github.com/jgordon615/NodeUnitTestAdapter
 
-Known Issues:
-* Test discovery and running tests briefly launches a nodejs window in the foreground for each test file. This is pretty distracting so I'm investigating how to fix it.
 
 If you like this, please leave a comment.
